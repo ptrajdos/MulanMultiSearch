@@ -1,0 +1,13 @@
+dist: trusty
+language: java
+jdk: oraclejdk8
+sudo: enabled 
+install: mvn install -DskipTests -Dgpg.skip
+notifications: 
+ email:
+  recipients: 
+   - pawel.trajdos@pwr.edu.pl
+  on_success: always
+  on_failure: always
+        
+     
