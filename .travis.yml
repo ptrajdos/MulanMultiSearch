@@ -2,6 +2,10 @@ dist: trusty
 language: java
 jdk: oraclejdk8
 sudo: enabled 
+before_install:
+    - cd ./thirdPartyJars 
+    - ./installJars.sh
+    - cd -
 install: mvn install -DskipTests -Dgpg.skip
 notifications: 
  email:
