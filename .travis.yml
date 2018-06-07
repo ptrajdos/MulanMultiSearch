@@ -3,7 +3,9 @@ language: java
 jdk: oraclejdk8
 sudo: enabled 
 before_install:
-    - ./thirdPartyJars/installJars.sh
+    - cd ./thirdPartyJars 
+    - ./installJars.sh
+    - cd -
 install: mvn install -DskipTests -Dgpg.skip
 notifications: 
  email:
