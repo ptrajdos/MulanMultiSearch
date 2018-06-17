@@ -9,31 +9,57 @@
   <fileSets>
     <fileSet>
         <directory>${project.build.directory}</directory>
-         <outputDirectory>package</outputDirectory>
+         <outputDirectory>./</outputDirectory>
             <excludes>
                 <exclude>**/*.zip</exclude>
                 <exclude>surefire/*</exclude>
             </excludes>
             <includes>
-                <include>**/*.jar</include>
+                <include>*.jar</include>
             </includes>
     </fileSet>
     <fileSet>
         <directory>${project.basedir}/lib</directory>
-         <outputDirectory>package/lib</outputDirectory>
+         <outputDirectory>./lib</outputDirectory>
             <includes>
                 <include>**/*.jar</include>
             </includes>
     </fileSet>
+    
+    <fileSet>
+        <directory>${project.basedir}/doc</directory>
+         <outputDirectory>./doc</outputDirectory>
+         <includes>
+                <include>**/*</include>
+            </includes>
+    </fileSet>
+
+    <fileSet>
+        <directory>${project.basedir}/src</directory>
+         <outputDirectory>./src</outputDirectory>
+         <includes>
+                <include>**/*.java</include>
+            </includes>
+    </fileSet>
+    
     <fileSet>
         <directory>${project.basedir}</directory>
-         <outputDirectory>package</outputDirectory>
+         <outputDirectory>./</outputDirectory>
             <includes>
                 <include>**/*.props</include>
             </includes>
         
     </fileSet>
     
+    <fileSet>
+        <directory>${project.basedir}</directory>
+         <outputDirectory>./</outputDirectory>
+            <includes>
+                <include>pom.xml</include>
+                <include>zip.xml</include>
+            </includes>
+        
+    </fileSet>
   </fileSets>
     
 </assembly>

@@ -119,8 +119,8 @@ public class MultiLabelMultiSearch extends MultiLabelLearnerBase {
 	    this.values = findBest(setCopy);
 	
 	    // setup best configurations
-	    evals            = this.setupGen.evaluate(this.values);
-	    multi            = (MultiLabelMultiSearch) this.setupGen.setup(this, evals);
+	    ///evals            = this.setupGen.evaluate(this.values);
+	    multi            = (MultiLabelMultiSearch) this.setupGen.setup(this, values);
 	    this.bestLearner = multi.getBaseLearner();
 	
 	    // train classifier
