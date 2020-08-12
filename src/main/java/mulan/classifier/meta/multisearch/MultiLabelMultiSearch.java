@@ -31,8 +31,9 @@ import weka.tools.SerialCopier;
 
 /**
  * The class performs Grid Search for the best set of attributes for given {@link MultiLabelLearner}
- * @author Pawel Trajdos
- * @version 25.04.2016
+ * @author pawel trajdos
+ * @since 0.1.1
+ * @version 0.1.1
  *
  */
 public class MultiLabelMultiSearch extends MultiLabelLearnerBase {

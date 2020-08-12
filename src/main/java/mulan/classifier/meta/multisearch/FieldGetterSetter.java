@@ -17,7 +17,9 @@ import weka.core.TechnicalInformation;
 import weka.core.TechnicalInformationHandler;
 
 /**
- * @author pawel
+ * @author pawel trajdos
+ * @since 0.1.1
+ * @version 0.1.1 
  *
  */
 public class FieldGetterSetter extends MultiLabelLearnerBase {

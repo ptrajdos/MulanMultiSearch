@@ -11,7 +11,9 @@ import mulan.evaluation.MultipleEvaluation;
 import weka.core.setupgenerator.Point;
 
 /**
- * @author pawel
+ * @author pawel trajdos
+ * @since 0.1.1
+ * @version 0.1.1
  *
  */
 public class Performance implements Serializable {

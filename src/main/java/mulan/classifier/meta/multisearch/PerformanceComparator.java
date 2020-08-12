@@ -8,7 +8,9 @@ import java.util.Comparator;
 
 /**
  * Class implements comparator for {@link Performance} objects
- * @author pawel
+ * @author pawel trajdos
+ * @since 0.1.1
+ * @version 0.1.1
  *
  */
 public class PerformanceComparator implements Serializable, Comparator<Performance> {
