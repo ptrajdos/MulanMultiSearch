@@ -1,6 +1,15 @@
+# Status
+Master:
+
 [![Build Status](https://travis-ci.com/ptrajdos/MulanMultiSearch.svg?branch=master)](https://travis-ci.com/ptrajdos/MulanMultiSearch)
 
 [![Coverage Status](https://coveralls.io/repos/github/ptrajdos/MulanMultiSearch/badge.svg?branch=devel)](https://coveralls.io/github/ptrajdos/MulanMultiSearch?branch=master)
+
+Devel:
+
+[![Build Status](https://travis-ci.com/ptrajdos/MulanMultiSearch.svg?branch=devel)](https://travis-ci.com/ptrajdos/MulanMultiSearch)
+
+[![Coverage Status](https://coveralls.io/repos/github/ptrajdos/MulanMultiSearch/badge.svg?branch=devel)](https://coveralls.io/github/ptrajdos/MulanMultiSearch?branch=devel)
 
 # MulanMultiSearch
 
