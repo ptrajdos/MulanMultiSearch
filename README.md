@@ -1,4 +1,8 @@
-# WekaTools
+[![Build Status](https://travis-ci.com/ptrajdos/MulanMultiSearch.svg?branch=master)](https://travis-ci.com/ptrajdos/MulanMultiSearch)
+
+[![Coverage Status](https://coveralls.io/repos/github/ptrajdos/MulanMultiSearch/badge.svg?branch=devel)](https://coveralls.io/github/ptrajdos/MulanMultiSearch?branch=master)
+
+# MulanMultiSearch
 
 The package implements the multi-search module for the mulan package.
 
